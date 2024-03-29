@@ -13,6 +13,8 @@ This is a Nuxt module that extends the configuration for [`@nuxt/eslint`](https:
 
 This could also be helpful if you are migrating away from implicit auto imports.
 
+[example commit](https://github.com/antfu/eslint-flat-config-viewer/commit/0f8000851b4ac0d7f3ea5e49963c6d7248303b7b)
+
 > [!IMPORTANT]
 > Experimental :)
 

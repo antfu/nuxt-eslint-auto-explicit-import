@@ -1,0 +1,12 @@
+{
+  "name": "nuxt-eslint-auto-explicit-import-playground",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "lint": "nuxi prepare && eslint ."
+  },
+  "dependencies": {
+    "nuxt": "latest"
+  }
+}

@@ -1,10 +1,11 @@
 <script setup>
 import { ref } from 'vue'
-const a = ref(1)
+
+const count = ref(1)
 </script>
 
 <template>
   <div>
-    Nuxt module playground!
+    Nuxt module playground! {{ count }}
   </div>
 </template>

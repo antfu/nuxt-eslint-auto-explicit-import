@@ -11,6 +11,8 @@ You can use composables anywhere you want, and ESLint will insert the correct im
 
 This is a Nuxt module that extends the configuration for [`@nuxt/eslint`](https://eslint.nuxt.com/packages/module).
 
+This could also be helpful if you are migrating away from implicit auto imports.
+
 > [!IMPORTANT]
 > Experimental :)
 

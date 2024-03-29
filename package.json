@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@nuxt/kit": "^3.11.1",
-    "eslint-plugin-unimport": "^0.0.1"
+    "eslint-plugin-unimport": "0.0.2"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.11.5",
@@ -46,10 +46,5 @@
     "eslint": "^8.57.0",
     "nuxt": "^3.11.1",
     "vitest": "^1.4.0"
-  },
-  "pnpm": {
-    "patchedDependencies": {
-      "@nuxt/eslint@0.3.0-beta.7": "patches/@nuxt__eslint@0.3.0-beta.7.patch"
-    }
   }
 }

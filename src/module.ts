@@ -32,8 +32,9 @@ export default defineNuxtModule<ModuleOptions>({
             ],
             configs: [
               [
+                '// nuxt-eslint-auto-explicit-import',
                 'createAutoInsert({',
-                `  getImports: () => (${JSON.stringify(await unimport?.getImports() || [])})`,
+                `  imports: ${JSON.stringify(await unimport?.getImports() || [])}`,
                 '})',
               ].join('\n'),
             ],

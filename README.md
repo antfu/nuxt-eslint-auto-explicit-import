@@ -1,4 +1,4 @@
-# Nuxt ESLint - Auto {Explicit} Module
+# Nuxt ESLint - Auto {Explicit} Import
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -7,7 +7,7 @@
 
 Love auto imports but are concerned about the implicitness? This module is for you!
 
-You can use composables anywhere you want, and ESLint will insert the correct import statement for you automatically.
+You can use composables anywhere as you would with auto import, and ESLint will insert the explicit import statement for you automatically.
 
 This is a Nuxt module that extends the configuration for [`@nuxt/eslint`](https://eslint.nuxt.com/packages/module).
 

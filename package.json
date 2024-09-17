@@ -1,7 +1,7 @@
 {
   "name": "nuxt-eslint-auto-explicit-import",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Auto insert explicit import from your Nuxt app",
   "license": "MIT",
   "repository": "antfu/nuxt-eslint-auto-explicit-import",

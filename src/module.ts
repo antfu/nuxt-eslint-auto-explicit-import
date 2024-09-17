@@ -1,7 +1,7 @@
 /// <reference types="@nuxt/eslint" />
 
-import { defineNuxtModule, logger } from '@nuxt/kit'
 import type { Unimport } from 'unimport'
+import { defineNuxtModule, logger } from '@nuxt/kit'
 
 // Module options TypeScript interface definition
 export interface ModuleOptions {}

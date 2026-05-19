@@ -24,6 +24,7 @@
     "play:build": "nuxi build playground",
     "play:prepare": "nuxt-module-build build --stub && nuxt-module-build prepare && nuxi prepare playground",
     "release": "bumpp",
+    "typecheck": "tsc --noEmit",
     "lint": "eslint .",
     "lint:play": "pnpm -C playground run lint",
     "test": "vitest"
